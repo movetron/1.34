@@ -1,0 +1,15 @@
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.csproj.AssemblyReference.cache
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.GeneratedMSBuildEditorConfig.editorconfig
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.AssemblyInfoInputs.cache
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.AssemblyInfo.cs
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.csproj.CoreCompileInputs.cache
+A:\МДК 01.01\project_№1\project_№1\bin\Debug\net6.0\project_№1.exe
+A:\МДК 01.01\project_№1\project_№1\bin\Debug\net6.0\project_№1.deps.json
+A:\МДК 01.01\project_№1\project_№1\bin\Debug\net6.0\project_№1.runtimeconfig.json
+A:\МДК 01.01\project_№1\project_№1\bin\Debug\net6.0\project_№1.dll
+A:\МДК 01.01\project_№1\project_№1\bin\Debug\net6.0\project_№1.pdb
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.dll
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\refint\project_№1.dll
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.pdb
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\project_№1.genruntimeconfig.cache
+A:\МДК 01.01\project_№1\project_№1\obj\Debug\net6.0\ref\project_№1.dll

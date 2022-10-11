@@ -2,22 +2,23 @@
 public class MainClass
 {
 
-    public static void Main(string[] args) {
+    public static void Main(string[] args)
+    {
 
-        double a, b;
-        Console.WriteLine("Введите A:");
-        a = Convert.ToInt32(Console.ReadLine());
+        Console.Write("часы: "); // 0 <= часы <= 11
+        int h = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Введите B:");
-        b = Convert.ToInt32(Console.ReadLine());
+        Console.Write("минуты: "); // 0 <= минуты <= 59
+        int m = Convert.ToInt32(Console.ReadLine());
 
-        if (a != 0) { 
-            Console.WriteLine("Корень x = {0}", -b / a);
-        }
-        else
-        { 
-                Console.WriteLine("Нет решения");
-        }
+        Console.Write("секунды: "); // 0 <= секунды <= 59
+        int s = Convert.ToInt32(Console.ReadLine());
+
+        int sum = (h * 3600) + (m * 60) + s;
+        int corner = (sum / 10) % 360;
+
+        Console.WriteLine("Угол стрелки часов = " + corner);
+
 
     }
 }

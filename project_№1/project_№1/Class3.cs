@@ -1,15 +1,23 @@
-﻿using System;
+using System;
 
-public class Class1
+public class Mainclass
 {
-	public Class1()
-	{
-        string a3 = Console.ReadLine(), a2 = Console.ReadLine(), a1 = Console.ReadLine(), b2 = Console.ReadLine(), b1 = Console.ReadLine();
-        string first = a3 + a2 + a1;
-        string second = b2 + b1;
-        string result = Convert.ToString(Convert.ToInt32(first) + Convert.ToInt32(second));
-        char[] number = result.ToCharArray();
-        for (int i = 0; i < number.Length; i++)
-            Console.Write(number[i] + " ");
+
+public static void Main(string[] args)
+{
+
+        Console.Write("Введите цифры первого числа: ");
+        int a3 = Convert.ToInt32(Console.ReadLine());
+        int a2 = Convert.ToInt32(Console.ReadLine());
+        int a1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Введите цифры второго числа: ");
+        int b2 = Convert.ToInt32(Console.ReadLine());
+        int b1 = Convert.ToInt32(Console.ReadLine());
+
+        int c3 = ((a3 * 100) + (a2 * 10) + (b2 * 10) + a1 + b1) / 100;
+        int c2 = (((a3 * 100) + (a2 * 10) + (b2 * 10) + a1 + b1) - c3 * 100) / 10;
+        int c1 = (((a3 * 100) + (a2 * 10) + (b2 * 10) + a1 + b1) - c3 * 100) - c2 * 10;
+        Console.WriteLine("Цифры числа " + ((a3 * 100) + (a2 * 10) + (b2 * 10) + a1 + b1) + ": " + c3 + ";" + c2 + ";" + c1 + ", равного сумме чисел: " + a3 + a2 + a1 + " и " + b2 + b1);
+
     }
 }
